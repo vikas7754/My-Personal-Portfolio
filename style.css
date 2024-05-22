@@ -91,6 +91,9 @@ header {
   font-family: "Racing Sans One", cursive;
   font-size: 4.5em;
 }
+.tagline {
+  color: #000000;
+}
 .header-content p {
   font-size: 1.7em;
 }
@@ -170,6 +173,12 @@ hr {
 .hi-sub {
   font-size: 0.5em;
   text-align: center;
+}
+
+.about-welcome {
+  text-align: left;
+  padding: 0 30px !important;
+  margin: 0 !important;
 }
 
 .about-p strong {
@@ -514,3 +523,32 @@ contact-button:after {
     margin: 20px;
   }
 } /*-----END ALL STYLING-----*/
+
+/* My Skills */
+
+.progress {
+  height: 20px;
+  border-radius: 20px;
+}
+
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+.skills span {
+  display: block;
+  position: relative;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #888888;
+  line-height: 17px;
+  margin-bottom: 5px;
+}
+.progress-bar {
+  text-align: left;
+
+  border-radius: 20px;
+  transition-duration: 3s;
+}

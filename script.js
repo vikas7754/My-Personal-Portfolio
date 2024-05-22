@@ -33,6 +33,11 @@ $(document).ready(function ($) {
       navbar.removeClass("change-color");
     }
   });
+
+  // Progress bars
+  $(".progress .progress-bar").css("width", function () {
+    return $(this).attr("aria-valuenow") + "%";
+  });
 });
 
 // Adding Animate.css class when scrolled into viewport
