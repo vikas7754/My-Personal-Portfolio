@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- // HEADER //-->
+    <header>
+      <!--// NAV BAR //-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="header-container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navbar-collapse-1"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home"
+              ><span class="fa fa-home fa-lg" aria-hidden="true"></span
+            ></a>
+          </div>
+
+          <div
+            class="navbar-collapse collapse"
+            id="navbar-collapse-1"
+            aria-expanded="false"
+            style="height: 1px"
+          >
+            <ul class="nav navbar-nav navbar-right" style="margin-right: 0">
+              <li class="about-nav">
+                <a href="#about-section" class="nav-link"
+                  ><i class="fa fa-id-card-o" aria-hidden="true"></i>About<span
+                    class="sr-only"
+                    >(current)</span
+                  ></a
+                >
+              </li>
+              <li class="work-nav">
+                <a href="#work-section" class="nav-link"
+                  ><i class="fa fa-code" aria-hidden="true"></i>Work</a
+                >
+              </li>
+              <li class="contact-nav">
+                <a href="#contact-section" class="nav-link"
+                  ><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end of nav bar -->
+
+      <div class="header-content" id="home">
+        <h1 class="animated fadeInDown">VIKAS</h1>
+        <p class="animated fadeInUp">Full Stack Web Developer</p>
+
+        <hr />
+        <!-- Divider -->
+
+        <!-- Social Links -->
+        <div class="social-links">
+          <a
+            href="https://github.com/vikas7754"
+            target="_blank"
+            class="github-link"
+            ><i class="fa fa-github" aria-hidden="true"></i
+          ></a>
+          <a href="https://freecodez.com" target="_blank" class="fcc-link"
+            ><i class="fa fa-globe" aria-hidden="true"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/vikas7754/"
+            target="_blank"
+            class="linkedin-link"
+            ><i class="fa fa-linkedin" aria-hidden="true"></i
+          ></a>
+          <a
+            href="https://vikas.freecodez.com"
+            target="_blank"
+            class="twitter-link"
+            ><i class="fa fa-user" aria-hidden="true"></i
+          ></a>
+          <a href="mailto:vikask4590@gmail.com"
+            ><i class="email-link fa fa-envelope-o" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+      <!--End header content -->
+
+      <!--This is an arrow to be placed at the bottom to go to the next page -->
+      <div class="down">
+        <a class="next-page" href="#about-section"
+          ><i
+            class="animated pulse infinite fa fa-chevron-circle-down fa-2x"
+            aria-hidden="true"
+          ></i
+        ></a>
+      </div>
+    </header>
+
+    <!-- BEGIN ABOUT SECTION -->
+    <div class="about-container" id="about-section">
+      <!-- keep this as an ID for linking purposes only -->
+      <h2 class="fade">
+        Hi, I'm Vikas!
+        <br />
+        <span class="hi-sub fade"
+          >Full Stack Web Developer and Coding Enthusiast.</span
+        >
+      </h2>
+      <div class="container-fluid">
+        <div class="row about-row">
+          <div class="col-sm-6 col-xs-12 about-left fade">
+            <img
+              src="https://res.cloudinary.com/freecodez/image/upload/v1688776150/other/nrxplie3a4ytzdfzy5vi.webp"
+              class="profile-pic img-responsive img-circle"
+            />
+          </div>
+          <div class="col-sm-6 col-xs-12 about-right fade">
+            <!--   THIS IS WHERE I NEED TO UPDATE TO MAKE INTO 2 PARAGRAPHS THAT WORK -->
+            <h2>Welcome</h2>
+            <p class="about-p">
+              Welcome to my personal portfolio! I am a passionate and dedicated
+              web developer with expertise in creating dynamic and user-friendly
+              websites. I have honed my skills in front-end and back-end
+              development, as well as proficiency in various programming
+              languages such as HTML, CSS, JavaScript, ReactJs, NextJs, NodeJs,
+              ExpressJs, PHP, MongoDB and MySQL. Hire Me
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- END ABOUT SECTION -->
+
+    <!-- BEGIN WORK SECTION -->
+    <div class="container work-container">
+      <div id="work-section">
+        <h2>My Work</h2>
+
+        <div class="row">
+          <div class="container">
+            <div class="work-sample">
+              <div
+                class="work-img col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-0"
+              >
+                <!-- NOTE: offset pulls all screen sizes over? figure this out -->
+                <!--               offset 0? -->
+                <img
+                  src="https://res.cloudinary.com/freecodez/image/upload/v1688758780/other/druqekmbwkzb8d0jqhmu.webp"
+                  alt="Image"
+                  class="img-responsive img-thumbnail"
+                />
+              </div>
+              <div
+                class="work-info col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-0"
+              >
+                <h4>Landing Page For A Car Repairing Site</h4>
+                <p class="description">
+                  This project is a visually appealing and user-friendly landing
+                  page designed using HTML, CSS, JavaScript, and Bootstrap. With
+                  an emphasis on modern design trends and responsive layout, our
+                  landing page offers a seamless browsing experience across
+                  various devices and screen sizes. The combination of HTML and
+                  CSS ensures clean and structured code, while JavaScript adds
+                  interactivity and enhances user engagement.
+                </p>
+                <p>
+                  <span class="technologies-used">
+                    <span class="label label-default">Bootstrap</span>
+                    <span class="label label-danger">HTML</span>
+                    <span class="label label-primary">CSS</span>
+                    <span class="label label-primary">JavaScript</span>
+                  </span>
+                </p>
+                <div class="work-buttons">
+                  <a
+                    target="_blank"
+                    href="https://github.com/vikas7754/car-repairing-website-template"
+                    ><button class="hvr-icon-pop" type="button">Demo</button></a
+                  >
+                  <a
+                    target="_blank"
+                    class="github-button"
+                    href="https://github.com/vikas7754/car-repairing-website-template"
+                    ><button class="hvr-icon-pop" type="button">Code</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end container-->
+          <hr />
+        </div>
+
+        <div class="row">
+          <div class="container">
+            <div class="work-sample">
+              <div
+                class="work-img col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-0"
+              >
+                <img
+                  src="https://res.cloudinary.com/freecodez/image/upload/v1688768763/other/n711zlngfmwviye9gwxl.webp"
+                  alt="Tribute page to Arnold Palmer"
+                  class="img-responsive img-thumbnail"
+                />
+              </div>
+              <div
+                class="work-info col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-0"
+              >
+                <h4>Weather App Using React Js!</h4>
+                <p class="description">
+                  The Weather App, developed with React.js, is a user-friendly
+                  and visually appealing application that provides real-time
+                  weather information to users. With its intuitive interface,
+                  users can easily search for and access accurate weather
+                  forecasts for any location worldwide. The app displays
+                  essential weather data such as temperature, humidity, wind
+                  speed, and atmospheric pressure, allowing users to plan their
+                  activities accordingly.
+                </p>
+                <p>
+                  <span class="technologies-used">
+                    <span class="label label-default">ReactJs</span>
+                    <span class="label label-danger">NextJs</span>
+                    <span class="label label-primary">Rest API</span>
+                  </span>
+                </p>
+                <div class="work-buttons">
+                  <a
+                    target="_blank"
+                    href="https://github.com/vikas7754/weather-app"
+                    ><button class="hvr-icon-pop" type="button">Demo</button></a
+                  >
+                  <a
+                    target="_blank"
+                    class="github-button"
+                    href="https://github.com/vikas7754/weather-app"
+                    ><button class="hvr-icon-pop" type="button">Code</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end container-->
+          <hr />
+        </div>
+
+        <div class="row">
+          <div class="container">
+            <div class="work-sample">
+              <div
+                class="work-img col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-0"
+              >
+                <img
+                  src="https://res.cloudinary.com/freecodez/image/upload/v1688769096/other/zxicin6dvg8yjetqxzj6.webp"
+                  alt="Tribute page to Arnold Palmer"
+                  class="img-responsive img-thumbnail"
+                />
+              </div>
+              <div
+                class="work-info col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-0"
+              >
+                <h4>Admin Dashboard Using ReactJs!</h4>
+                <p class="description">
+                  This project is an admin dashboard application built using
+                  React.js, a popular JavaScript library for building user
+                  interfaces. The application provides a comprehensive and
+                  user-friendly interface for administrators to manage various
+                  aspects of their system or platform. With a modern and sleek
+                  design, the dashboard offers real-time data visualization,
+                  customizable widgets, and interactive charts, enabling
+                  administrators to monitor key metrics and make informed
+                  decisions. The app also includes features like user
+                  management, data filtering, and advanced search capabilities,
+                  enhancing efficiency and productivity.
+                </p>
+                <p>
+                  <span class="technologies-used">
+                    <span class="label label-default">ReactJs</span>
+                    <span class="label label-danger">NodeJs</span>
+                    <span class="label label-primary">Rest API</span>
+                  </span>
+                </p>
+                <div class="work-buttons">
+                  <a
+                    target="_blank"
+                    href="https://github.com/vikas7754/mercor-project"
+                    ><button class="hvr-icon-pop" type="button">Demo</button></a
+                  >
+                  <a
+                    target="_blank"
+                    class="github-button"
+                    href="https://github.com/vikas7754/mercor-project"
+                    ><button class="hvr-icon-pop" type="button">Code</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end container-->
+        </div>
+      </div>
+      <!--End ".work-section" -->
+    </div>
+    <!-- END WORK SECTION -->
+
+    <!--   BEGIN CONTACT SECTION -->
+    <div class="contact-container" id="contact-section">
+      <h2>Get in Touch!</h2>
+      <div class="container contact-section">
+        <div class="row">
+          <p>
+            Whether it's for a cup of coffee, general questions, or how I can
+            help your site out, please feel free to reach out!
+          </p>
+        </div>
+        <div class="email-button">
+          <a
+            href="mailto:vikask4590@gmail.com?subject=I%20Saw%20Your%20Website"
+            class="contact-button"
+          >
+            Email Me
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            <span>vikask4590@gmail.com</span>
+          </a>
+        </div>
+        <br />
+
+        <div class="contact-buttons">
+          <a
+            class="social github-social"
+            href="https://github.com/vikas7754"
+            target="_blank"
+            ><i class="fa fa-github" aria-hidden="true"></i
+          ></a>
+          <a
+            class="social codepen-social"
+            href="https://codepen.io/vikas7754"
+            target="_blank"
+            ><i class="fa fa-codepen" aria-hidden="true"></i
+          ></a>
+          <a
+            class="social fcc-social"
+            href="https://freecodez.com"
+            target="_blank"
+            ><i class="fa fa-globe" aria-hidden="true"></i
+          ></a>
+          <a
+            class="social insta-social"
+            href="https://www.instagram.com/divine_vikas"
+            target="_blank"
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
+          <a
+            class="social linkedin-social"
+            href="https://www.linkedin.com/in/vikas7754"
+            target="_blank"
+            ><i class="fa fa-linkedin" aria-hidden="true"></i
+          ></a>
+          <!--           <a class="social medium-social" href="https://medium.com/@BenThom21" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a> -->
+        </div>
+      </div>
+    </div>
+
+    <!--     END CONTACT SECTION -->
+
+    <!-- BEGIN FOOTER -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="footer col-xs-12">
+          <p>
+            Coded with
+            <i
+              class="animated pulse infinite fa fa-heart"
+              aria-hidden="true"
+            ></i>
+            by Vikas
+            <br />
+            <i class="fa fa-copyright" aria-hidden="true"></i> 2023
+            <span class="location"
+              ><i class="fa fa-map-marker" aria-hidden="true"></i> Uttar
+              Pradesh, India</span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
